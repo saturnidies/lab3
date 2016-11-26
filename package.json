@@ -1,0 +1,16 @@
+{
+  "name": "lab3",
+  "version": "1.0.0",
+  "description": "lab3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "browserify index.js -o bundle.js"
+  },
+  "author": "saturnidies",
+  "license": "ISC",
+  "devDependencies": {
+    "browserify": "^13.1.1",
+    "lodash": "^4.17.2"
+  }
+}
